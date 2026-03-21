@@ -265,7 +265,7 @@ h1, h2, h3, h4 {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 24px 60px;
+  padding: 80px 24px 80px;
   max-width: 820px;
   display: flex;
   flex-direction: column;
@@ -324,12 +324,12 @@ h1, h2, h3, h4 {
   color: rgba(255,255,255,0.6);
   font-style: italic;
   font-family: 'Playfair Display', serif;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .hero-scroll {
   position: absolute;
-  bottom: 32px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
