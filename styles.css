@@ -681,6 +681,36 @@ h1, h2, h3, h4 {
   margin-top: 8px;
 }
 
+.event-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.event-photos figure {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.event-photos img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-credit-inline {
+  position: static;
+  display: block;
+  font-size: 10px;
+  padding: 4px 6px;
+  background: var(--cream);
+  color: var(--text-muted);
+}
+
 /* ===== VICTORIA / GALLERY ===== */
 .victoria-intro {
   max-width: 760px;
@@ -797,6 +827,51 @@ h1, h2, h3, h4 {
   gap: 16px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.reg-pricing {
+  max-width: 520px;
+  margin: 0 auto 28px;
+  text-align: left;
+}
+
+.reg-tier {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.reg-tier-label {
+  color: rgba(255,255,255,0.85);
+  font-size: 15px;
+}
+
+.reg-tier-price {
+  font-weight: 600;
+  color: var(--white);
+  white-space: nowrap;
+}
+
+.reg-note {
+  max-width: 600px;
+  margin: 0 auto 32px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+}
+
+.reg-note a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: underline;
+}
+
+.victoria-footnote {
+  margin-top: 16px;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-muted);
 }
 
 /* ===== FOOTER ===== */
