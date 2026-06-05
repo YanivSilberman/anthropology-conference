@@ -702,6 +702,20 @@ h1, h2, h3, h4 {
   display: block;
 }
 
+.event-photo {
+  margin: 0 0 12px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.event-photo img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
 .photo-credit-inline {
   position: static;
   display: block;
@@ -865,6 +879,27 @@ h1, h2, h3, h4 {
 .reg-note a {
   color: rgba(255,255,255,0.9);
   text-decoration: underline;
+}
+
+.contact-card {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 40px 32px;
+  box-shadow: var(--shadow);
+}
+
+.contact-card p {
+  color: var(--text-light);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.contact-card .contact-name {
+  color: var(--text);
+  margin-bottom: 24px;
 }
 
 .victoria-footnote {
