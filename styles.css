@@ -396,6 +396,38 @@ h1, h2, h3, h4 {
 }
 
 /* ===== ABOUT ===== */
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  text-align: left;
+}
+
+.about-header-text .section-label {
+  margin-bottom: 8px;
+}
+
+.about-header h2 {
+  margin-bottom: 0;
+}
+
+.conference-logo {
+  flex: 0 0 auto;
+  display: block;
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-lg);
+}
+
+.conference-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1070,6 +1102,14 @@ h1, h2, h3, h4 {
   .hero-edition { margin-bottom: 18px; font-size: 13px; }
 
   .hero-scroll { bottom: 16px; }
+
+  .about-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .conference-logo { width: 120px; height: 120px; }
 
   .hero-meta { gap: 16px; }
 
